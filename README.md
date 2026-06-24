@@ -19,13 +19,20 @@ The application contains multiple counters that share the same logic through a c
 ## Project Structure
 
 ```text
-src/
-├── components/
-│   └── Counter.jsx
-├── hooks/
-│   └── useCounter.js
-├── App.js
-├── App.css
+counter-app/
+├── src/
+│   ├── components/
+│   │   └── Counter.jsx
+│   ├── hooks/
+│   │   └── useCounter.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── public/
+├── README.md
+├── .gitignore
+├── package.json
 ```
 
 ## Custom Hook
